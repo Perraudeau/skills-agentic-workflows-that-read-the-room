@@ -25,6 +25,7 @@
 *.log
 *.sql
 *.sqlite
+.github/aw/logs/
 
 # OS generated files #
 ######################

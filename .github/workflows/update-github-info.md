@@ -8,6 +8,7 @@ permissions:
   contents: read
   pull-requests: read
 engine: copilot
+model: gpt-5-mini
 tools:
   edit:
   github:
