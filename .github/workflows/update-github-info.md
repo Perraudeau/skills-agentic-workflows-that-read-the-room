@@ -17,6 +17,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     draft: true
@@ -33,7 +34,8 @@ Refresh the repository's GitHub Info content for Mona's review.
 1. Use the GitHub repository API tools to read `notes/mona-notes.md` before drafting anything. Also read the current `site/content/github-info.md` so the update preserves its existing structure and avoids repeating stale entries.
 2. Use `web-fetch` to read https://github.blog/latest/.
 3. Use `web-fetch` to read https://github.blog/changelog/.
-4. Prefer practical, concise updates that help developers learn GitHub faster. Every item based on the blog or changelog must name its source and link back to the official page.
+4. Use `web-fetch` to read https://awesome-copilot.github.com/workflows/.
+5. Prefer practical, concise updates that help developers learn GitHub faster. Every item based on the blog, changelog, or Awesome Copilot workflows must name its source and link back to the official page.
 
 ## Required change
 
